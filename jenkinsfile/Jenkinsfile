@@ -1,4 +1,5 @@
 
+    node("master") {
     stage('Download tooling') {
         sh 'echo Download tooling'
     }
@@ -8,4 +9,4 @@
         sh 'echo Checkout'
     }
 
-   
+       }
