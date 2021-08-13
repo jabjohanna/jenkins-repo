@@ -1,0 +1,11 @@
+
+    stage('Download tooling') {
+        sh 'echo Download tooling'
+    }
+
+    // Clone repo
+    stage('Checkout') {
+        sh 'echo Checkout'
+    }
+
+   
